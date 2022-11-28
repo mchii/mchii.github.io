@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Objects - Ojaa</title>
+    <title>Object detail - Ojaa</title>
     <link rel="icon" type="image/x-icon" href="assets/img/round-logo-w.png">
     <link rel="stylesheet" href="css/custom.css">
 </head>
@@ -46,13 +46,19 @@
             <div>
                 <div class="d-flex w-100 list-group-item justify-content-between">
                     <div class="form-group last mb-4">
-                        <label for="object">Object name:*</label>
-                        <input type="text" class="form-control" id="object">
-                        <label for="location">Location:*</label>
-                        <input type="text" class="form-control" id="location">
-                        <label for="description">Description:</label>
-                        <input type="text" class="form-control" id="description">
-                        <input class="my-1" type="file" id="user" capture="user" accept="image/*">
+                        <div id="detail-page">
+                            <label for="object">Object name:</label>
+                            <p class="fw-bolder">Band Aid</p>
+                            <label for="location">Location:</label>
+                            <p class="fw-bolder">Top drawer</p>
+                            <label for="description">Description:</label>
+                            <p class="fw-bolder">Empty</p>
+                            <label for="picture">Picture:</label>
+                            <img src="assets/img/dummy.png" alt="">
+                            <label for="coordinates">Map:</label>
+                            <a href='https://maps.google.com/?q=52.02275471798913%205.548383741579866'><a href='https://maps.apple.com/maps?q=addressgoeshere'>
+                            Click here</a></a>
+                        </div>
                     </div>
                 </div>
             </div>

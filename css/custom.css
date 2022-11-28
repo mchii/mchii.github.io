@@ -11257,9 +11257,9 @@ header #logo {
 
 #app {
   width: 90%;
-  max-height: 65%;
+  max-height: 70%;
   margin: 5%;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 #app .list-group-item.active {
   color: black;
@@ -11377,4 +11377,8 @@ header #logo {
   top: 20px;
   right: 20px;
   z-index: 2;
+}
+
+#detail-page img {
+  width: 100%;
 }
